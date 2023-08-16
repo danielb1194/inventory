@@ -86,3 +86,6 @@ def save():
       <input type=submit value=Upload> 
     </form>
     """
+
+
+app.run(host="0.0.0.0", port=80, debug=False, use_reloader=False)
